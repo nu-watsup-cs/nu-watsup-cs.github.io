@@ -1,0 +1,21 @@
+.cspac-color {
+  background-color: #CF9912;
+}
+
+.cssi-color {
+  background-color: #59BFB3;
+}
+
+.reading-groups-color {
+  background-color: #613F99;
+}
+
+.comp-sci-color {
+  background-color: #7EC225;
+}
+
+.calendar-badge {
+  min-width: 180px;
+  font-size: 150%;
+  display: inline-block
+}
