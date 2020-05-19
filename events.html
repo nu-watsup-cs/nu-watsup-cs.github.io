@@ -7,7 +7,7 @@ calendar: <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600
 ---
 
 
-<div class="row pb-2 mt-4 mb-2 border-bottom">
+<div class="row pb-2 mt-4 mb-2 border-bottom ">
 	<div class="col-md-12 ">
 			<span class="badge calendar-badge comp-sci-color text-white">CS Department</span>
 			<span class="badge calendar-badge cspac-color text-white">CSPAC</span>
@@ -16,28 +16,23 @@ calendar: <iframe src="https://calendar.google.com/calendar/b/1/embed?height=600
 		</div>
 </div>
 
-<div class="row  pb-2 mt-2 mb-2">
-	<!-- <div class="pb-2 mt-4 mb-2 border-bottom col-md-12">
-		<h1>Andrea Piscitello</h1>
-	</div> -->
-	<div class="col-md-4 border-right">
-			<h1>Agenda View</h1>
-			<!-- 350x600 -->
-			{{ page.agenda }}
+<div class="row pb-1 pt-1 mt-2 mb-2 border-bottom">
 
-		</div>
+	<div class="col-md-4 border-right">
+		<h1>Agenda View</h1>
+		<!-- 350x600 -->
+		{{ page.agenda }}
+	</div>
 
 	<div class="col-md-8">
 		<h1> Calendar View</h3>
 			<!-- 700x600 -->
 			{{ page.calendar }}
-
 	</div>
+</div>
 
-	<div class="row mt-4">
-		<div class="border-top pt-1 col-md-12">  
-			<p>To show a CS event on this page, simply add watsup-cs@u.northwestern.edu as an invitee to your event.</p>
-		</div>
+<div class="row mt-2">
+	<div class="col-md-12">  
+		<p>To show a CS event on this page, simply add watsup-cs@u.northwestern.edu as an invitee to your event.</p>
 	</div>
-
 </div>
