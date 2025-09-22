@@ -1,3 +1,5 @@
+# WatsUp CS
+
 This website has been built by Ettore M. G. Trainiti as a personal initiative.
 The idea behind this website was in the air for a while and further discussions with Lukas Larazek definitely reinforced the need of making such website available for the CS community.
 The feedback coming from the CS Community Building Survey of Winter 2020 reinforced this need.
