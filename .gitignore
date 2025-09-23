@@ -2,6 +2,7 @@
 
 # Hugo
 /public/
+/resources/
 
 # Jekyll
 _site/
