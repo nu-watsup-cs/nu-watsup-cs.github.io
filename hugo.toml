@@ -18,12 +18,6 @@ pageRef = '/events'
 weight = 20
 
 [[menus.main]]
-parent = "Events"
-name = 'Test'
-pageRef = '/events/test'
-weight = 10
-
-[[menus.main]]
 name = 'Initiatives'
 pageRef = '/initiatives'
 weight = 30
