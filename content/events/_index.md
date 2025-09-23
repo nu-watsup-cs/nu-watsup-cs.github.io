@@ -1,3 +1,9 @@
++++
+date = '2025-09-22T14:31:45-05:00'
+draft = false
+title = 'Events'
++++
+
 ---
 layout: default
 
@@ -12,31 +18,31 @@ last_update: 2023-06-29
 ---
 
 <div class="row pb-2 mb-2 border-bottom ">
-	<div class="col-md-auto ">
-			<span class="badge calendar-badge comp-sci-color text-white">CS Department</span>
-			<span class="badge calendar-badge cspac-color text-white">CSPAC</span>
-			<span class="badge calendar-badge cssi-color text-white">CSSI</span>
-			<span class="badge calendar-badge others-color text-white">WatsUp CS</span>
-		</div>
+ <div class="col-md-auto ">
+   <span class="badge calendar-badge comp-sci-color text-white">CS Department</span>
+   <span class="badge calendar-badge cspac-color text-white">CSPAC</span>
+   <span class="badge calendar-badge cssi-color text-white">CSSI</span>
+   <span class="badge calendar-badge others-color text-white">WatsUp CS</span>
+  </div>
 </div>
 
 <div class="row pb-1 pt-1 mt-2 mb-2 border-bottom">
 
-	<div class="col-md-4 border-right">
-		<h1>Agenda View</h1>
-		<!-- 350x500 then set iframe width to 100% -->
-		{{ page.agenda }}
-	</div>
+ <div class="col-md-4 border-right">
+  <h1>Agenda View</h1>
+  <!-- 350x500 then set iframe width to 100% -->
+  {{ page.agenda }}
+ </div>
 
-	<div class="col-md-8">
-		<h1> Calendar View</h3>
-			<!-- 700x500 then set iframe width to 100%-->
-			{{ page.calendar }}
-	</div>
+ <div class="col-md-8">
+  <h1> Calendar View</h3>
+   <!-- 700x500 then set iframe width to 100%-->
+   {{ page.calendar }}
+ </div>
 </div>
 
 <div class="row mt-2">
-	<div class="col-md-12">  
-		<p>To add a CS event to this page, simply have watsup-cs@u.northwestern.edu as an invitee of your calendar event.</p>
-	</div>
+ <div class="col-md-12">  
+  <p>To add a CS event to this page, simply have watsup-cs@u.northwestern.edu as an invitee of your calendar event.</p>
+ </div>
 </div>
