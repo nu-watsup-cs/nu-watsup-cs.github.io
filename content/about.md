@@ -1,13 +1,12 @@
----
-layout: default
++++
+date = '2020-05-26'
+draft = false
+title = 'About'
 
-title: About
+author = "Ettore M. G. Trainiti"
+content_authors = "Ettore M. G. Trainiti"
 
-author: Ettore M. G. Trainiti
-content_authors: Ettore M. G. Trainiti
-
-last_update: 2020-05-26
----
++++
 
 <div class="row pb-2 mt-4 mb-2">
 
