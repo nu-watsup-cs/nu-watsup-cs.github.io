@@ -1,13 +1,13 @@
----
-layout: default
++++
+draft = false
 
-title: Home
+title = "Home"
 
-author: Ettore M. G. Trainiti
-content_authors: Ettore M. G. Trainiti
+author = "Ettore M. G. Trainiti"
+content_authors = "Ettore M. G. Trainiti"
 
-last_update: 2020-05-19
----
+date = 2020-05-19
++++
 
 <div class="row">
  <div class="col-lg-12">
@@ -38,6 +38,6 @@ last_update: 2020-05-19
   
   <p class="lead">Feel free to roam around this website, contribute to it, and make the most out of it!
   </p>
- 
+
  </div>
 </div>

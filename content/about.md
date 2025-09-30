@@ -1,19 +1,12 @@
 +++
-date = '2025-09-22T14:32:09-05:00'
+date = '2020-05-26'
 draft = false
 title = 'About'
+
+author = "Ettore M. G. Trainiti"
+content_authors = "Ettore M. G. Trainiti"
+
 +++
-
----
-layout: default
-
-title: About
-
-author: Ettore M. G. Trainiti
-content_authors: Ettore M. G. Trainiti
-
-last_update: 2020-05-26
----
 
 <div class="row pb-2 mt-4 mb-2">
 
