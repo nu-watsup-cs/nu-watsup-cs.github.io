@@ -1,5 +1,16 @@
-# WatsUp CS
++++
+date = '2020-05-26'
+draft = false
+title = 'About WatsUp CS'
+description = "And how to contribute to it"
 
+author = "Ettore M. G. Trainiti"
+content_authors = "Ettore M. G. Trainiti"
+
+[info]
+website = "https://github.com/nu-watsup-cs/nu-watsup-cs.github.io"
+
++++
 This website has been built by Ettore M. G. Trainiti as a personal initiative.
 The idea behind this website was in the air for a while and further discussions with Lukas Larazek definitely reinforced the need of making such website available for the CS community.
 The feedback coming from the CS Community Building Survey of Winter 2020 reinforced this need.
@@ -7,9 +18,8 @@ So here it is :)
 
 ## How was this website built?
 
-This website has been built using [Bootstrap 4](https://getbootstrap.com/), [Jekyll](https://jekyllrb.com/Jekyll), Google Calendar, and a few custom CSS rules.
-
-The website is hosted on [GitHub Pages](https://pages.github.com), which has full support for Jekyll. If you want to know more about how Jekyll makes things easier, check out [this](http://jmcglone.com/guides/github-pages/) great tutorial.
+This website has been built using [Bootstrap 5](https://getbootstrap.com/), [Hugo](https://gohugo.io/), Google Calendar, and a few custom CSS rules.
+The website is hosted on [GitHub Pages](https://pages.github.com).
 
 ## How can I contribute to this website?
 
@@ -18,15 +28,11 @@ If you know what you're doing, or you wanna start an adventure, I won't hold you
 If you're new to this, then maybe follow these steps to run WatsUp CS locally on your machine
 
 - Install [Git](https://git-scm.com/downloads)
-- Install [Jekyll](https://jekyllrb.com/docs/installation/)
+- Install [Hugo](https://gohugo.io/installation/)
 - Fork the [WatsUp CS Git Repository](https://github.com/nu-watsup-cs/nu-watsup-cs.github.io/)
-- Run `jekyll serve --watch` in the root directory of the WatsUp Git Repository
-- Goto <http://127.0.0.1:4000/> in your browser
+- Run `hugo server` in the root directory of the WatsUp Git Repository
+- Goto <http://127.0.0.1:1313/> in your browser
 - If everything looks right you are now good to go!
-
-You can now create a new page starting from the content available in `template.html`.
-Copy the `template.html` file, rename it, and add content to it.
-Feel free to work on your page until you're done and you're happy about its content and its look.
 
 ## Style
 

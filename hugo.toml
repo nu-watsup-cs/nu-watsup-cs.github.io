@@ -1,0 +1,44 @@
+baseURL = "https://watsup.cs.northwestern.edu/"
+languageCode = "en-us"
+title = "WatsUp CS"
+
+copyright = "© WatsUp CS 2025"
+
+enableEmoji = true
+
+theme = "hugo-bootstrap-theme"
+
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = ["lastmod", ":fileModTime", ":default"]
+
+# Main menu
+[menus]
+# [[menus.main]]
+# name = 'Home'
+# pageRef = '/'
+# weight = 10
+
+[[menus.main]]
+name = 'Events'
+pageRef = '/events'
+weight = 20
+
+[[menus.main]]
+name = 'Initiatives'
+pageRef = '/initiatives'
+weight = 30
+
+[[menus.main]]
+name = 'Resources'
+pageRef = '/resources'
+weight = 40
+
+[[menus.main]]
+name = 'About'
+pageRef = '/about'
+weight = 50
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'

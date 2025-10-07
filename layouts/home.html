@@ -1,0 +1,18 @@
+{{ define "main" }}
+
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="display-1 text-primary">{{ .Title }}</h1>
+            <h2 class="display-4">{{ .Description }}</h2>
+        </div>
+    </div>
+
+    <div class="row mt-1">
+        <div class="col-md-12 lead">
+            {{ .Content }}
+        </div>
+    </div>
+</div>
+
+{{ end }}
