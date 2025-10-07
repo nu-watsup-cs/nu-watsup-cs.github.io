@@ -1,7 +1,8 @@
 +++
 draft = false
 
-title = "Home"
+title = "Hello World!"
+description ="Welcome to WatsUp CS :)"
 
 author = "Ettore M. G. Trainiti"
 content_authors = "Ettore M. G. Trainiti"
@@ -9,35 +10,19 @@ content_authors = "Ettore M. G. Trainiti"
 date = 2020-05-19
 +++
 
-<div class="row">
- <div class="col-lg-12">
-  <h1 class="display-1"> Hello, World!</h1>
-  <h1 class="display-4">Welcome to WatsUp CS :)</h1>
- </div>
-</div>
+This website is a student led effort meant to:
 
-<div class="row mt-1">
- <div class="col-md-12">
-  
-  <p class="lead">This website is a student led effort meant to:</p>
-   <ul>
-    <li>Make events happening within the department more visible and accessible</li>
-    <li>Provide space to advertise student led and department led initiatives</li>
-    <li>Increase awareness about resources available for PhD students</li>
-   </ul>
-  </p>
-  
-  <p class="lead">As part of the CS community, we want to make sure that we know what is happening around us. </br>
-   Under the tab Events, you can find talks and events scheduled by the Department, CSPAC, CSSI, and more! </br>
-   Under the tab Initiative, there are more info about active groups within the CS Department.</br>
-  </p>
-  
-  <p class="lead">All the pointers above can definitely help us contributing positivitely to the life of our department. </br>
-   This can also helps us getting to know each other more, expand our network, and make the PhD experience more pleasant.
-  </p>
-  
-  <p class="lead">Feel free to roam around this website, contribute to it, and make the most out of it!
-  </p>
+- Make events happening within the department more visible and accessible
+- Provide space to advertise student led and department led initiatives
+- Increase awareness about resources available for PhD students
 
- </div>
-</div>
+As part of the CS community, we want to make sure that we know what is happening around us.
+
+Under the tab [Events](events), you can find talks and events scheduled by the Department, CSPAC, CSSI, and more!
+
+Under the tab [Initiatives](initiatives), there is more info about active groups within the CS Department.
+
+All the pointers above can definitely help us contributing positivitely to the life of our department.
+This can also helps us getting to know each other more, expand our network, and make the PhD experience more pleasant.
+  
+Feel free to roam around this website, contribute to it, and make the most out of it!

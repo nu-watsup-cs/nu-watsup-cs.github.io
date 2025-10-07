@@ -1,0 +1,36 @@
+.cspac-color {
+    background-color: #CF9912;
+}
+
+.cssi-color {
+    background-color: #C7561E;
+}
+
+.others-color {
+    background-color: #59BFB3;
+}
+
+.comp-sci-color {
+    background-color: #7EC225;
+}
+
+.navbar {
+    @extend .navbar-dark;
+
+    padding: .75rem 0;
+    background-color: transparent;
+    background-image: linear-gradient(to bottom,
+            rgba($nu-purple, 1),
+            rgba($nu-purple, 0.95));
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+}
+
+.list {
+    .card {
+        transition: transform 0.2s ease-in-out;
+
+        &:hover {
+            transform: scale(1.01);
+        }
+    }
+}

@@ -2,12 +2,15 @@
 draft = false
 
 title = "AIJC"
-subtitle = "Artificial Intelligence Journal Club"
+description ="Artificial Intelligence Journal Club"
 
 author = "Ettore M. G. Trainiti"
 content_authors = "AIJC Officers"
 
 date = "2020-06-02"
+
+[info]
+website = "https://aijournalclub.slack.com"
 +++
 
 AI Journal Club is a graduate student reading group that meets weekly to talk about new and classic papers in the
@@ -20,11 +23,3 @@ Our goal is to help students stay up-to-date in the fast-changing field of AI an
       from different labs and programs to share their research.
 
 Join our Slack channel at <aijournalclub.slack.com> for meeting times, AI discussion, and more.
-
-## Information
-
-<https://aijournalclub.slack.com>
-
-Officers:
-
-- TBD

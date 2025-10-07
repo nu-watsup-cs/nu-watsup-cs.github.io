@@ -2,12 +2,15 @@
 draft = false
 
 title = "CS++ Slack Workspace"
-subtitle = "For all PhD students in the CS, CS+LS, CE, and TSB programs"
+description ="For all PhD students in the CS, CS+LS, CE, and TSB programs"
 
 author = "Ettore M. G. Trainiti"
 content_authors = "Ettore M. G. Trainiti"
 
 date = "2020-05-21"
+
+[info]
+website = "http://nucsphd.slack.com"
 +++
 
 This workspace is meant to be used by PhD students in extended CS programs.
@@ -27,11 +30,4 @@ Community brings people together and additional value to your PhD experience, be
 
 Don't miss out! Shoot an email to one of the admins, they'll promptly send a Slack invite link to your Northwestern email account.
 
-## Information
-
-Slack: <http://nucsphd.slack.com>
-
-Maintainers & Admins:
-
-- CSPAC
-- CSSI
+### Maintained by CSPAC and CSSI

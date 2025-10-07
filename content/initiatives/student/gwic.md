@@ -2,12 +2,15 @@
 draft = false
 
 title = "GWiC"
-subtitle = "Graduate Women in Computing"
+description ="Graduate Women in Computing"
 
 author = "Ettore M. G. Trainiti"
 content_authors = "Rawan Alharbi, Melissa Chen"
 
 date = "2023-06-29"
+
+[info]
+email = "gwic@northwestern.edu"
 +++
 
  GWiC is intended to be a place for networking and advising between womxn and gender minority Ph.D. students,
@@ -20,7 +23,3 @@ This organization is open to all enrolled Northwestern graduate students. The be
       Northwestern University's student groups are available to all students without regard to any category protected by
       the law. The University believes different perspectives, experiences, and backgrounds are critical to a dynamic
       and vibrant University community, and as such all students are welcomed and encouraged to join each group.
-
-## Information
-
-Email: [gwic@northwestern.edu](mailto:gwic@northwestern.edu)

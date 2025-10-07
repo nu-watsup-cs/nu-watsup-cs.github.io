@@ -1,47 +1,45 @@
 +++
 date = '2020-05-26'
 draft = false
-title = 'About'
+title = 'About WatsUp CS'
+description = "And how to contribute to it"
 
 author = "Ettore M. G. Trainiti"
 content_authors = "Ettore M. G. Trainiti"
 
+[info]
+website = "https://github.com/nu-watsup-cs/nu-watsup-cs.github.io"
+
 +++
+This website has been built by Ettore M. G. Trainiti as a personal initiative.
+The idea behind this website was in the air for a while and further discussions with Lukas Larazek definitely reinforced the need of making such website available for the CS community.
+The feedback coming from the CS Community Building Survey of Winter 2020 reinforced this need.
+So here it is :)
 
-<div class="row pb-2 mt-4 mb-2">
+## How was this website built?
 
-  <div class="col-md-8">
-    <h1>About WatsUp CS</h1>
-    <h4 class="text-secondary">And how to contribute to it</h4>
-  </div>
+This website has been built using [Bootstrap 5](https://getbootstrap.com/), [Hugo](https://gohugo.io/), Google Calendar, and a few custom CSS rules.
+The website is hosted on [GitHub Pages](https://pages.github.com).
 
-  <div class="border-bottom col-md-12">
-  </div>
-</div>
+## How can I contribute to this website?
 
-<div class="row mt-2">
-  <div class="col-md-8" markdown="1">
-{% include_relative README.md %}
-  </div>
+The first step to contribute is to make sure you can run this website locally on your machine.
+If you know what you're doing, or you wanna start an adventure, I won't hold you back.
+If you're new to this, then maybe follow these steps to run WatsUp CS locally on your machine
 
-  <div class="col-md-4">
+- Install [Git](https://git-scm.com/downloads)
+- Install [Hugo](https://gohugo.io/installation/)
+- Fork the [WatsUp CS Git Repository](https://github.com/nu-watsup-cs/nu-watsup-cs.github.io/)
+- Run `hugo server` in the root directory of the WatsUp Git Repository
+- Goto <http://127.0.0.1:1313/> in your browser
+- If everything looks right you are now good to go!
 
-    <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
-      <div class="card-header">Information</div>
-      <div class="card-body">
-        <p class="card-text">Github Repo: <a target="_blank"
-            href="https://github.com/nu-watsup-cs/nu-watsup-cs.github.io">Link</a></p>
-        <p class="card-text">Created by: <a target="_blank" href="https://linkedin.com/in/ettrai">Ettore M. G.
-            Trainiti</a></p>
-      </div>
-    </div>
+## Style
 
-    <div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
-      <div class="card-header">Special Thanks</div>
-      <div class="card-body">
-        <p>Lukas Lazarek</p>
-        <p>CS Community Building Survey</p>
-      </div>
-    </div>
-  </div>
-</div>
+Here's a list of conventions to follow to have a coherent experience across all the website pages:
+
+- Links to pages external to this website should open in a new tab
+
+## My new content is ready, what now?
+
+When your changes are ready for submission and revision, submit a [pull request](https://www.atlassian.com/git/tutorials/making-a-pull-request) to the GitHub repository.

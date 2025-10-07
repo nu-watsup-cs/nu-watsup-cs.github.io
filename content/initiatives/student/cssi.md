@@ -2,12 +2,15 @@
 draft = false
 
 title = "CSSI"
-subtitle = "Computer Science Social Initiative"
+description ="Computer Science Social Initiative"
 
 author = "Ettore M. G. Trainiti"
 content_authors = "Ettore M. G. Trainiti"
 
 date = "2024-06-18"
+
+[info]
+email = "cssi@u.northwestern.edu"
 +++
 
 CSSI has been founded in April 2020 to address the need of pushing community building efforts forward.
@@ -35,11 +38,3 @@ Informal events!
 ## Do you have an idea? Wanna join us?
 
 Shoot us an [email](mailto:cssi@u.northwestern.edu), the CSSI board will get you involved to push that idea forward!
-
-## Information
-
-Email: [cssi@u.northwestern.edu](mailto:cssi@u.northwestern.edu)
-
-Current Board Members:
-
-- TBD

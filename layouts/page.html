@@ -1,0 +1,43 @@
+{{ define "main" }}
+
+<div class="container mt-4">
+    <div class="row pb-2 mb-2">
+
+        <div class="col-md-8">
+            <h1>{{ .Title }}</h1>
+            {{with .Description }}
+            <h4 class="text-secondary">{{ . }}</h4>
+            {{end}}
+            <time datetime="{{ .Lastmod.Format `2006-01-02T15:04:05Z0700` | safeHTML }}">
+                Last Updated: {{ .Lastmod | time.Format ":date_long" }}
+            </time>
+        </div>
+
+        <div class="border-bottom row mt-2"></div>
+    </div>
+
+    <div class="row mt-2">
+
+
+        <div class="
+        {{ if .Params.Info }}
+            col-md-8
+        {{ else }}
+            col-md-12
+        {{end}}
+        ">
+            {{ .Content }}
+        </div>
+
+        {{ if .Params.Info }}
+        <div class="col-md-4">
+            {{ partial "card.html" .Params.Info }}
+        </div>
+        {{ end }}
+
+    </div>
+
+
+</div>
+
+{{ end }}

@@ -2,12 +2,16 @@
 draft = false
 
 title = "CSPAC"
-subtitle = "Computer Science PhD Advisory Council"
+description ="Computer Science PhD Advisory Council"
 
 author = "Ettore M. G. Trainiti"
 content_authors = "Ettore M. G. Trainiti"
 
 date = "2024-06-18"
+
+[info]
+email = "cspac@u.northwestern.edu"
+website = "https://cspac.cs.northwestern.edu"
 +++
 
 Founded in the fall of 2017, CSPAC is a PhD student organization representing all PhD students in the Computer
@@ -33,15 +37,3 @@ CSPAC hosts a student curated [wiki](https://github.com/nu-cspac/nu-cs/wiki)!
 
 Feel free to send us an <a href="mailto:cspac@u.northwestern.edu">email</a> with questions, comments, or
       suggestions any time!
-
-## Information
-
-Website: <https://cspac.cs.northwestern.edu>
-
-Wiki: <https://github.com/nu-cspac/nu-cs/wiki>
-
-Email: [cspac@u.northwestern.edu](mailto:cspac@u.northwestern.edu)
-
-Current Board Members
-
-- TBD

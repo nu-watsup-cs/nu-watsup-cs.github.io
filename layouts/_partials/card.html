@@ -1,0 +1,39 @@
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">Information</h5>
+
+        {{ if .email }}
+        <p class="card-text">
+            Email:
+            <a class="link-opacity-100" href="mailto:{{ .email }}">{{ .email }}</a>
+        </p>
+        {{ end }}
+
+        {{ if .where }}
+        <p class="card-text">
+            Where:
+            {{ .where }}
+        </p>
+        {{ end }}
+
+        {{ if .when }}
+        <p class="card-text">
+            When:
+            {{ .when }}
+        </p>
+        {{ end }}
+
+        {{ if .who }}
+        <p class="card-text">
+            Point of Contact:
+            {{ .who }}
+        </p>
+        {{ end }}
+
+        {{ if .website }}
+        <a href="{{ .website }}" class="btn btn-primary">Website</a>
+        {{ end }}
+
+
+    </div>
+</div>

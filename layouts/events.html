@@ -1,0 +1,55 @@
+{{ define "main" }}
+
+<div class="container mt-4">
+    <div class="row pb-2 mb-2">
+
+        <div class="col-md-8">
+            <h1>{{ .Title }}</h1>
+            <h4 class="text-secondary">{{ .Description }}</h4>
+            <time datetime="{{ .Lastmod.Format `2006-01-02T15:04:05Z0700` | safeHTML }}">
+                Last Updated: {{ .Lastmod | time.Format ":date_long" }}
+            </time>
+        </div>
+
+        <div class="border-bottom row mt-2"></div>
+    </div>
+
+    <div class="row mt-2">
+        <div class="row pb-1 pt-1 mt-2 mb-2 border-bottom">
+
+            <div class="col-md-4 border-right">
+                <h1>Agenda View</h1>
+                <!-- 350x500 then set iframe width to 100% -->
+                <iframe src="{{ .Params.Agenda }}" style="border-width:0" width="100%" height="500" frameborder="0"
+                    scrolling="no"></iframe>
+            </div>
+
+            <div class="col-md-8">
+                <h1> Calendar View</h3>
+                    <!-- 700x500 then set iframe width to 100%-->
+                    <iframe src="{{ .Params.Calendar }}" style="border-width:0" width="100%" height="500"
+                        frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+
+        <div class="row mt-2">
+            <div class="col-md-12">
+                <p>
+                    To add a CS event to this page, simply have watsup-cs@u.northwestern.edu as an invitee of your
+                    calendar event.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="row mt-2">
+        <div class="col-md-12 lead">
+            {{ .Content }}
+        </div>
+    </div>
+
+
+</div>
+
+
+{{ end }}

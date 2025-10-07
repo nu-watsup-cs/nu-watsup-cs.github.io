@@ -1,0 +1,19 @@
+@import "northwestern"; // My SASS
+@import "font";
+
+// Default variable overrides
+
+// scss-docs-start theme-color-variables
+$primary: $nu-purple;
+$secondary: $nu-purple-50;
+$success: $nu-green;
+$info: $nu-cyan;
+$warning: $nu-yellow;
+$danger: $nu-red;
+$light: $nu-white;
+$dark: $nu-black;
+// scss-docs-end theme-color-variables
+
+// Your variable overrides
+$body-bg: $nu-white;
+$body-color: $nu-black;
